@@ -1,0 +1,226 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v49-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_math_symbols_vietnamese-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v49-cyrillic_cyrillic-ext_greek_greek-ext_latin_latin-ext_math_symbols_vietnamese-600.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v21-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v21-cyrillic_cyrillic-ext_greek_latin_latin-ext_vietnamese-700.woff2")
+    format("woff2");
+}
+
+:root {
+  --color-brand-light: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-neutral-light: #ffffff;
+  --color-gray: #4a4a4a;
+  --color-light-gray: #747272;
+  --color-dark-blue: #011f4a;
+  --color-yellow: #ffd02b;
+  --color-black: #000000;
+}
+
+/* Page */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  color: var(--color-brand-dark);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Buttons */
+.button {
+  background-color: var(--color-brand-light);
+  border-radius: 32px;
+  color: var(--color-neutral-light);
+  cursor: pointer;
+  border: 2px solid var(--color-brand-light);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 32px;
+}
+
+.button:hover {
+  border: 2px solid var(--color-brand-light);
+  background-color: transparent;
+  color: var(--color-brand-dark);
+}
+
+/* Links */
+.link {
+  text-decoration: none;
+  line-height: 1.15;
+}
+
+.link:visited {
+  color: var(--color-brand-dark);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
+
+/* hero-section */
+.hero-title {
+  font-family: "Play";
+  color: var(--color-brand-light);
+  font-size: 140px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 114px;
+  font-style: normal;
+}
+
+.hero-text-1 {
+  line-height: 1.15;
+}
+
+.hero-text-2 {
+  line-height: 1.5;
+}
+/* perevtilenya-section */
+.perevtilenya-title {
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.perevtilenya-title .accent {
+  color: var(--color-brand-light);
+  text-transform: capitalize;
+}
+
+.perevtilenya-text {
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.perevtilenya-text .accent {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* information-section */
+.information-title {
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.15;
+}
+
+.information-text {
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.information-title .accent {
+  color: var(--color-brand-light);
+}
+
+/* kartinki-section */
+.kartinki-title {
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.kartinki-title .accent {
+  color: var(--color-brand-light);
+}
+
+.kartinki-text {
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+/* contact-section */
+.contact-title {
+  font-family: "Play";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+}
+
+.contact-title .accent {
+  color: var(--color-brand-light);
+}
+
+.contact-map {
+  border-radius: 32px;
+}
+
+/* Footer */
+
+footer {
+  background-color: var(--color-dark-blue);
+  line-height: 1.18;
+}
+
+address {
+  font-style: normal;
+}
+
+.address-link {
+  text-decoration: none;
+  color: var(--color-neutral-light);
+  font-size: 16px;
+}
+
+.address-copyright {
+  color: var(--color-light-gray);
+  font-size: 13px;
+}
+
+.address-link:hover {
+  color: var(--color-brand-light);
+  font-weight: 700;
+}
